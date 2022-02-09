@@ -56,6 +56,8 @@ namespace CarLotSimulator
 
             //*************BONUS X 2*************//
 
+            Console.WriteLine($"Number of cars created: {Carlot.numberOfCars} cars");
+
             foreach(var car in lot.CarList)
             {
                 Console.WriteLine();
